@@ -1,0 +1,2 @@
+Un semplice programma, entry-level, che ho realizzato su Python e postato per uso personale. Però, se qualcuno dovesse mai imbattersi in questo profilo, potrà utilizzarlo come meglio crede, liberamente.
+Il programma si basa sulla famosa Magic 8-Ball e consiste nel porre una domande e ricevere una risposta, che sarà scelta randomicamente tra le varianti inserite all'interno del codice (chi più ne voglia più ne scriva). 
