@@ -1,10 +1,12 @@
+# N.B.: questo è lo scheltro più basilare possibile. Il tutto può essere modificato, migliorato e/o ampliato in qualsiasi momento. 
+
 import random #Importiamo il modulo random
 
 risposta = "" #La risposta sarà definita in base al numero randomico
 
-numero_randomico = random.randint(1, 9) #Generiamo un numero randomico
+numero_randomico = random.randint(1, 9) #Generiamo numero randomico
 
-if numero_randomico == 1: #Usiamo il nr. per randomizzare la risposta
+if numero_randomico == 1: #Usiamo il numero randomico per randomizzare la nostra risposta
   risposta = "Sì, decisamente"
 elif numero_randomico == 2:
   risposta = "È già stato scritto nel destino"
@@ -23,18 +25,15 @@ elif numero_randomico == 8:
 elif numero_randomico == 9:
   risposta = "Non potrà mai succedere"
 else:
-  print("Errore") #Se per qualche motivo genera numeri oltre i scelti, "Errore"
+  print("Errore") #Se per qualche ambiguità dovesse generare numeri diversi dagli inseriti: "Errore"
 
-nome = "John Doe" #Nome dell'utente
+nome = "John Doe" #Nome utente
 if nome == "":
   nome = "(Anonimo)" #Se vuoto, scrivi "Anonimo"
 
-domanda = "Dovrei andare al bar ora?" #Domanda dell'utente
+domanda = "Dovrei andare al bar ora?" #Domanda utente
 if domanda == "":
   print("Non hai posto alcuna domanda")
 else:
   print(str(nome) + " chiede: " + str(domanda)) #Noma e domanda nel terminal
   print("La palla magica risponde: " + str(risposta)) #Risposta nel terminal
-
-
-
