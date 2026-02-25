@@ -1,4 +1,4 @@
-# N.B.: questo è lo scheltro più basilare possibile. Il tutto può essere modificato, migliorato e/o ampliato in qualsiasi momento. 
+# N.B.: questo è lo scheletro più basilare possibile. Il tutto può essere modificato, migliorato e/o ampliato in qualsiasi momento. 
 
 import random #Importiamo il modulo random
 
@@ -35,5 +35,5 @@ domanda = "Dovrei andare al bar ora?" #Domanda utente
 if domanda == "":
   print("Non hai posto alcuna domanda")
 else:
-  print(str(nome) + " chiede: " + str(domanda)) #Noma e domanda nel terminal
+  print(str(nome) + " chiede: " + str(domanda)) #Nome e domanda nel terminal
   print("La palla magica risponde: " + str(risposta)) #Risposta nel terminal
